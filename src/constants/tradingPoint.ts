@@ -1,0 +1,16 @@
+export enum TradingPointReasonImportUnavailabilityMnemocode {
+  TradingPointNameIsEmpty = "TradingPointNameIsEmpty",
+  TradingPointNameAlreadyExists = "TradingPointNameAlreadyExists",
+  TradingPointNameAlreadyExistsInCsv = "TradingPointNameAlreadyExistsInCsv",
+  TradingPointMnemocodeIsEmpty = "TradingPointMnemocodeIsEmpty",
+  TradingPointMnemocodeAlreadyExists = "TradingPointMnemocodeAlreadyExists",
+  TradingPointMnemocodeAlreadyExistsInCsv = "TradingPointMnemocodeAlreadyExistsInCsv",
+  GeopositionIsUnprocessed = "GeopositionIsUnprocessed",
+  GeopositionIsEmpty = "GeopositionIsEmpty",
+  TownNameIsEmpty = "TownNameIsEmpty",
+  TimeZoneIsUndefined = "TimeZoneIsUndefined",
+  OrgstructuralUnitWrongNestingLevelShouldLevel2 = "OrgstructuralUnitWrongNestingLevelShouldLevel2",
+  OrgstructuralUnitWrongNestingLevelShouldLevel3 = "OrgstructuralUnitWrongNestingLevelShouldLevel3",
+  OrgstructuralUnitWrongNestingLevelShouldLevel4 = "OrgstructuralUnitWrongNestingLevelShouldLevel4",
+  OrgstructuralUnitWrongParent = "OrgstructuralUnitWrongParent",
+}
